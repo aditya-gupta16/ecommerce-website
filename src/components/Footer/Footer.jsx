@@ -101,7 +101,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full h-6 bg-white text-center">
+      <div className="w-full h-6 bg-white text-center text-black dark:text-black bg-white">
         <p className="text-sm">&copy; 2024 ShopMe. All rights reserved.</p>
       </div>
     </div>

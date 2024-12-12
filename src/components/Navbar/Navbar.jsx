@@ -88,7 +88,7 @@ const Navbar = ({ handleOrderPopup }) => {
       </div>
 
       <div data-aos='zoom-in' className="flex justify-center" >
-        <ul className="sm:flex hidden items-center gap-4 ">
+        <ul className="sm:flex text-center items-center gap-4 ">
           {Menu.map( (data)=>(
             <li key={data.id}>
               <a href={data.link} className="inline-block px-4 hover:text-primary duration-200 ">
@@ -98,7 +98,7 @@ const Navbar = ({ handleOrderPopup }) => {
           ))}
 
           <li className="group relative cursor-pointer">
-            <a href="#" className="flex items-center gap-[2px] py-2">
+            <a href="#" className="flex text-center items-center gap-[2px] py-2">
               Tranding Products
               <span>
                 <FaCaretDown className="transition-all duration-200 group-hover:rotate-180 " />
